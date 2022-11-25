@@ -11,6 +11,10 @@ dashboard.section.header.val = {
   [[/\ \/\ \/\  __//\ \_\ \ \ \_/ |\ \ \/\ \/\ \/\ \ ]],
   [[\ \_\ \_\ \____\ \____/\ \___/  \ \_\ \_\ \_\ \_\]],
   [[ \/_/\/_/\/____/\/___/  \/__/    \/_/\/_/\/_/\/_/]],
+  [[_________________________________________________]],
+  [[      https://github.com/GabrielLuizSF/nvim      ]],
+  [[                                                 ]],
+  [[                                                 ]],
 }
 dashboard.section.buttons.val = {
   dashboard.button("f", " " .. " Find file", ":Telescope find_files <CR>"),
@@ -22,7 +26,7 @@ dashboard.section.buttons.val = {
   dashboard.button("q", " " .. " Quit", ":qa<CR>"),
 }
 local function footer()
-  return " "
+  return ""
 end
 
 dashboard.section.footer.val = footer()
